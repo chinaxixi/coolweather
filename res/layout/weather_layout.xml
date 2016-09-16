@@ -10,10 +10,11 @@
         
          <Button
             android:id="@+id/switch_city"
-            android:layout_width="30dp"
+            android:layout_width="60dp"
             android:layout_height="30dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="10dp"
+            android:text="返回"
              />
 
         <TextView
@@ -26,11 +27,12 @@
         
         <Button
             android:id="@+id/refresh_weather"
-            android:layout_width="30dp"
+            android:layout_width="80dp"
             android:layout_height="30dp"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
             android:layout_marginRight="10dp"
+            android:text="同步天气"
             />
     </RelativeLayout>
 
